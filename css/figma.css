@@ -212,7 +212,7 @@ text-align: center;
 
 .bigbox2{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     margin-bottom: 50px;
 }
 .card{
@@ -304,6 +304,7 @@ color: #000000;
     justify-content: center;
     align-items: center;
     background: #E8F4FA;
+   margin-bottom: 50px;
 padding: 20px;
 }
 .input1{
@@ -315,6 +316,15 @@ background: #FFFFFF;
 border: none;
 margin: 30px;
 }
+.input1 placeholder{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+color: white
+
+}
 .input2{
     height: 67px;
 width: 173px;
@@ -324,6 +334,7 @@ background: #000000;
 border: none;
 margin: 30px;
 }
+
 
 .para5{
     font-family: Poppins;
@@ -343,7 +354,19 @@ max-width: 370px;
 width: 100%;
   padding: 20px;  
 }
+
+.para7{
+    font-family: Poppins;
+font-size: 25px;
+font-weight: 400;
+line-height: 38px;
+padding: 15px;
+color: #1090CB;
+
+
+}
 .end{
     display: flex;
     align-items: flex-end;
 }
+
