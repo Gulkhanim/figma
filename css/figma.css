@@ -1,4 +1,6 @@
-
+body{
+    background-color: white; 
+}
 
 
 .logo{
@@ -130,6 +132,7 @@ padding-bottom: 50px;
 .content1{
     display: flex;
     /* background-color: #08D3BB; */
+    padding: 20px;
 }
 
 .icon1{
@@ -275,6 +278,7 @@ padding: 15px;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin: 20px;
 }
 .para4{
     font-family: Poppins;
@@ -390,4 +394,137 @@ color: #585858;
 max-width: 1000px;
 width: 100%;
 padding-top: 15px;
+}
+
+.icon7{
+    height: 83px;
+    width: 83px;
+    border-radius: 20px;
+    background: #FFF2F2;
+display: flex;
+justify-content: center;
+align-items: center; 
+margin-right: 20px;  
+}
+
+.wrap{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 20px;
+    background:white;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   background:#d9eefa;
+    border: 0.7px solid #C4C4C4;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.wrap1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+     background:white;
+     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+ max-width: 1200px;
+ width: 100%; 
+ box-shadow: 0px 4px 114px 0px #00000017;
+ border-radius: 10px;
+ padding: 30px;
+position: absolute;
+ top: 380px;
+
+ 
+}
+
+.blue{
+    background: #1090CB;
+ /* padding-top: 30px; */
+ display: flex;
+ justify-content:space-around;
+align-items: center;
+height: 388px;
+}
+
+.para10{
+    font-family: Poppins;
+font-size: 65px;
+font-weight: 600;
+color: #FFFFFF;
+padding-bottom: 20px;
+}
+
+.para11{
+    font-family: Poppins;
+font-size: 36px;
+font-weight: 500;
+line-height: 64px;
+color: #000000;
+margin: 50px;
+
+}
+
+.para12{
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 41px;
+    color: #000000;
+padding-bottom: 15px;
+padding-top: 15px;
+     
+}
+
+.param{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #333333;
+padding-left: 15px;
+}
+
+.param1{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 57px;
+    color: #000000; 
+    text-align: center;
+}
+
+.param2{
+    font-family: Poppins;
+font-size: 13px;
+font-weight: 500;
+line-height: 25px;
+color: #777777;
+
+
+}
+
+.label1{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #4F4F4F;
+padding-bottom: 15px;
+     
+}
+.input3{
+    height: 56px;
+    width: 322px;
+    border-radius: 9px;
+    border: none;
 }
