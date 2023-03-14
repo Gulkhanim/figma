@@ -37,15 +37,40 @@ align-items: center;
 padding: 15px;
 }
 
-a:hover{
+/* a:hover{
     color:#08D3BB;
-}
+} */
 
-a:focus{
+/* a:focus{
     background: #1090CB;
 border-radius: 6px;
 
+} */
+
+.big-point:focus {
+    position: relative;
 }
+.big-point a {
+   color: #1090CB;
+ 
+}
+.big-point::before {
+display: block;
+content:"";
+position: absolute;
+left: 0px;
+top: -5px;
+width: 10px;
+height: 10px;
+border-radius: 5px;
+background: #08D3BB;
+
+}
+.big-point:hover{
+    color:#1090CB;
+}
+
+
 
 nav{
     display: flex;
@@ -61,9 +86,22 @@ nav{
     justify-content: space-around;
     align-items: center;
     
-    background: rgba(16, 144, 203, 0.1)
+    background: rgba(16, 144, 203, 0.1);
+    position: relative;
 
 }
+
+.vector1{
+position: absolute;
+max-height: 531px;
+height: 100%;
+max-width: 651px;
+width: 100%;
+
+bottom: -200px;
+left: -290px;
+}
+
 
 .left{
     width: 600px;
